@@ -1,0 +1,223 @@
+body {
+  text-align: center;
+  background-color: rgb(2, 48, 71);
+  color: white;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+::-webkit-scrollbar {
+  width: 2vh;
+}
+/* the scrollbar. */
+::-webkit-scrollbar-button {
+  background: #151b29;
+  height: 1vh;
+  /* border-radius: 50%; */
+  /* border: #2f4f4f 0.3vh solid; */
+}
+/* the buttons on the scrollbar (arrows pointing upwards and downwards). */
+::-webkit-scrollbar-thumb {
+  background: #151b29;
+
+  border: 0.4vh #04ee51 solid;
+}
+/* the draggable scrolling handle. */
+::-webkit-scrollbar-track {
+  background: yellowgreen;
+}
+/* the track (progress bar) of the scrollbar. */
+::-webkit-scrollbar-track-piece {
+  background: #2f4f4f;
+}
+/* the track (progress bar) NOT covered by the handle. */
+::-webkit-scrollbar-corner {
+  background: #151b29;
+}
+/* the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet. */
+::-webkit-resizer {
+  background: #04ee51;
+}
+/* the draggable resizing handle that appears at the bottom corner of some elements. */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.marginsUpAndDown {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.anyLink {
+  border: rgb(2, 117, 216) solid;
+  height: auto;
+  overflow: hidden;
+  width: 80vw;
+  margin-left: 10vw;
+  border-radius: 2vh;
+}
+
+li {
+  margin-bottom: 3vh;
+}
+a {
+  text-decoration: none;
+  color: #04ee51;
+}
+.anySite {
+  width: 80vw;
+  border: #61dafb solid;
+  max-height: max-content;
+  margin: auto;
+  margin-bottom: 3vh;
+  border-radius: 2vh;
+}
+
+.softUI {
+  border-radius: 2vh;
+  background: linear-gradient(315deg, #181a1b, #181a1b);
+  box-shadow: -0.8vh -0.8vh 1.2vh #141617, 0.8vh 0.8vh 1.2vh #1c1e1f;
+  margin-left: 5vh;
+  color: white;
+  border: #04ee51 solid;
+}
+.softUI:hover {
+  background: #282c34;
+  color: white;
+  border: #04ee51 solid;
+  color: rgb(2, 117, 216);
+}
+.softOne {
+  background-color: #282c34;
+}
+.glassOne {
+  /* From https://css.glass */
+  background: rgba(2, 72, 113, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(2, 72, 113, 1);
+}
+.colorBlue {
+  background-color: rgb(2, 117, 216);
+  color: white;
+}
+.colorGreen {
+  background: #04ee51;
+  color: white;
+}
+
+.colorBluish {
+  background: rgb(2, 48, 71);
+  color: white;
+  border: rgb(2, 117, 216) solid;
+}
+.darkMode {
+  background: rgb(24, 26, 27);
+  color: white;
+}
+.colorsDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.eachColor {
+  border-radius: 1vh;
+  width: 20vw;
+}
+.blackText {
+  color: black;
+}
+.svgTest {
+  background: url("../public/greenMazeDesign.svg");
+  background-color: #181a1b;
+  background-size: cover;
+  height: 20vh;
+}
+
+.allSnippets {
+  display: flex;
+  background-color: #1c1e1f;
+  width: 90vw;
+  height: max-content;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  border-radius: 2vh;
+}
+.allSnippets > div {
+  width: 30vw;
+  height: auto;
+  border-left: #04ee51 solid;
+  border-right: #04ee51 solid;
+  border-radius: 2vh;
+}
+
+#divRows {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.even {
+  height: 3vh;
+  width: 3vw;
+  background-color: black;
+}
+.odd {
+  height: 3vh;
+  width: 3vw;
+  background-color: #04ee51;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+button {
+  width: 50%;
+  margin: 2vh;
+  padding: 1vh;
+  border-radius: 2vh;
+  border: #181a1b solid;
+}
+button:hover {
+  background-color: rgb(2, 117, 216);
+  color: white;
+}
+div > h3 {
+  margin-top: 2vh;
+}
